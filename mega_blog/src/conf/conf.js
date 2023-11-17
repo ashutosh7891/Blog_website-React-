@@ -1,6 +1,6 @@
 const conf = {
 
-    // key value pair
+    // key value pair of apprwrite congifs
 
     appwriteUrl: String(import.meta.env.VITE_APPWRITE_URL),
     appwriteProjectID: String(import.meta.env.VITE_PROJECT_ID),
