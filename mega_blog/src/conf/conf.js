@@ -1,6 +1,7 @@
 const conf = {
 
     // key value pair of apprwrite congifs
+    // here i am getting appwrite ID's unique id's
 
     appwriteUrl: String(import.meta.env.VITE_APPWRITE_URL),
     appwriteProjectID: String(import.meta.env.VITE_PROJECT_ID),
