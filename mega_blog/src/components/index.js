@@ -11,5 +11,6 @@ export {
     Logo,
     Container,
     LogoutBtn,
-    Buttons
+    Buttons,
+    
 }
