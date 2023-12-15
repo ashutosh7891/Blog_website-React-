@@ -7,7 +7,7 @@ import {Header , Footer} from './components'
 
 function App(){
 
-// loading
+// loading...
 
 const [loading, setLoading] = useState(true)
 const dispatch = useDispatch()
