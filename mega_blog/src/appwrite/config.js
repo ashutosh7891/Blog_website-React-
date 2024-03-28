@@ -1,8 +1,7 @@
 import conf from '../conf/conf'
 import { Client, ID , Databases , Storage , Query } from "appwrite";
 
-export class Service{
-
+export class Service{ 
     client  = new Client;
     Databases;
     bucket; // storage 
@@ -145,7 +144,7 @@ export class Service{
                 fileID
 
             )
-            return true;
+            return true
             
         } catch (error) {
             console.log('appwrite service error :: deleteFile :: error' , error)
@@ -163,7 +162,9 @@ export class Service{
      }
 }
 
-const service  = new Service
+
+
+const service = new Service() 
 
 export default service
 

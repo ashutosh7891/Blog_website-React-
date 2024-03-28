@@ -12,6 +12,8 @@ function App(){
 const [loading, setLoading] = useState(true)
 const dispatch = useDispatch()
 
+
+
 useEffect(() => {
    authService.getCurrentUser()
    .then((userData) => {
@@ -20,7 +22,7 @@ useEffect(() => {
     }else{
       dispatch(logout())
     }
-   })
+   })   
    .finally(() => {
     setLoading(false)
    })
@@ -39,5 +41,7 @@ return !loading? (
 ): null
 
 }
+
+
 
 export default App;

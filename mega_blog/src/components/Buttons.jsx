@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Buttons({
+    
     children,
     type = 'button',
     bgColor = 'blue-600',
